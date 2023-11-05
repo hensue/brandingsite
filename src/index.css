@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'nicon';
+  /* animation: move 1s linear infinite forwards;
+  background: linear-gradient(to left,
+      #6f7280,
+      #2a2c3c,
+      #181827,
+      #833ab4,
+      #710909,
+      #fcb045);
+  background-size: 400% 400%;
+  animation: body 10s infinite ease-in-out; */
+}
+
+.nav {
+  animation: move 1s linear infinite forwards;
+  /* background: linear-gradient(to right,
+      #fcb045,
+      #710909,
+      #710909,
+      #fcb045); */
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: 100% 100%;
+  animation: body 10s infinite ease-in-out;
+  /* opacity: 0.5; */
+}
+
+.hero {
+  /* background: url(./images/1.jpg) top center no-repeat; */
+  background: url(./images/1.jpg) fixed center center;
+  background-size: cover;
+  height: auto;
+}
+
+.about {
+  /* background: url(./images/1.jpg) top center no-repeat; */
+  background: linear-gradient(rgba(2, 2, 2, .1), rgba(0, 0, 0, .1)),url(./images/6.jpg) fixed center center;
+  /* padding-top: 5vh; */
+  background-size: cover;
+  height: auto;
+}
+
+.footer {
+  background: linear-gradient(rgba(2, 2, 2, .9 ), rgba(0, 0, 0, .5));
+  background-size: cover;
+
+}
+
+.contact {
+  background: url(./images/background2.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+.region {
+  background: url(./images/5.png) top center no-repeat;
+  background-size: cover;
+}
+
+.cta {
+  background: url(./images/2.png) fixed center center;
+}
+
+.service {
+  /* background:url(./images/background1.jpg) top center; */
+  background: none;
+  padding: 1vh 1% 1vh 1%;
+  background-size: cover;
+}
+
+.services{
+   background:url(./images/background1.jpg) top center;
+   /* background: none; */
+   padding: 10vh 1% 1vh 1%;
+   background-size: cover;
+}
+
+.card {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+}
+
+.footersub{
+  background:  url(./images/footer5.jpg) top center no-repeat;
+  background-size: cover;
+}
+.product {
+  /* background: linear-gradient(rgba(2, 2, 2, .1), rgba(0, 0, 0, .1)), url(./images/back3.jpg) top center; */
+  background-size: cover;
+}
