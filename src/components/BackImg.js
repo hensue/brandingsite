@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import NavBar from '../components/Navbar/NavBar';
 import Services from './Services';
 import Portfolio from './Portfolio';
+import Clients from './Clients';
 import protergia from '../images/clients/protergia.png';
 
 const BackImg = () => {
@@ -30,7 +31,7 @@ const BackImg = () => {
 
                         <Services />
 
-                        <Portfolio />
+                        <Clients />
 
                         {/* <div className="w-full lg:w-72 pt-6 lg:mx-12">
                             <Link to="/contact" className="bg-transparent border hover:bg-blue-900 hover:border-blue-800 text-white justify-center text-center rounded-lg px-10 py-3 flex items-center group">Send a message
