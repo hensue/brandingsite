@@ -42,7 +42,7 @@ body {
 
 .about {
   /* background: url(./images/1.jpg) top center no-repeat; */
-  background: linear-gradient(rgba(2, 2, 2, .1), rgba(0, 0, 0, .1)),url(./images/6.jpg) fixed center center;
+  background:url(./images/background1.jpg) fixed center center;
   /* padding-top: 5vh; */
   background-size: cover;
   height: auto;
@@ -76,7 +76,7 @@ body {
 }
 
 .services{
-   background:url(./images/background1.jpg) top center;
+   background:url(./images/back4.png) fixed top center;
    /* background: none; */
    padding: 10vh 1% 1vh 1%;
    background-size: cover;
