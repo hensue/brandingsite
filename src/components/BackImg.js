@@ -9,7 +9,7 @@ const BackImg = () => {
     return (
         <div id='about'>
             <div className='flex items-center text-center justify-center' style={{ background: "radial-gradient(circle at 50% 50%, #FE602F 0%, #4F1D0E 100%)", height: '10vh' }}>
-                <p className='text-center text-4xl md:text-6xl text-white font-cursive' style={{ fontFamily: 'Brush Script MT', textShadow: '2px 2px 4px #000000' }} data-aos="zoom-in">
+                <p className='text-center text-3xl md:text-6xl text-white font-cursive threeD1' style={{ fontFamily: 'Brush Script MT'}} data-aos="zoom-in">
                     Casino Global Solutions Ltd
                 </p>
             </div>

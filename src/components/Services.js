@@ -10,7 +10,7 @@ const Services = () => {
         <div id="services" className="bg-gray-100 py-12 service" >
             <section data-aos="zoom-in-down">
                 <div className="my-4 py-4">
-                    <h2 className="my-2 text-center text-3xl text-white-500 uppercase font-bold" style={{ textShadow: '1px 1px 2px #000000' }}>Services</h2>
+                    <h2 className="my-2 text-center text-3xl text-white-500 uppercase font-bold " style={{ textShadow: '1px 1px 2px #000000' }}>Services</h2>
 
                     <div className='flex justify-center'>
                         <div className='w-24 border-b-4 border-white-900'></div>
